@@ -1,4 +1,4 @@
-def isPalindrome(self,x):
+def isPalindrome(x):
     x = str(x)
     if x == x[::-1]:
         return True
